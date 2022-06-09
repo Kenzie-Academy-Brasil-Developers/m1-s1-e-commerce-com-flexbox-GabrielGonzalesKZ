@@ -1,6 +1,4 @@
 
-
-
 .menu {
     width: 100%;
     background: #ffffff;
@@ -10,9 +8,9 @@
 
 .container{
     max-width: 1200px;
-    margin: 2px auto;
-    background: #FFFFFF;
-}
+    height: 100%;
+    margin: 0 auto;
+  }
 
 .menu-flex {
     display: flex;
@@ -34,6 +32,7 @@
     display: flex;
     list-style: none;
     gap: 46px;
+    padding-left: 46px;
 }
 
 .menu-nav ul li a {
@@ -54,49 +53,32 @@
 
 .products-wrapper{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    flex-wrap: wrap; 
+
 }
 
-div .products{
-    width: 374px;
-    height: 24%;
+.container .products-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
     background: #ffffff;
-    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
     font-family: 'Inter';
+    font-weight: 600;  
+}
+
+li{
+    width: 23%;
+    margin: 20px 20px 16px 0px;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    margin: 20px 20px 16px 0px; 
-    font-weight: 600;
+}
+    
+p{
+    padding-left: 21px;    
 }
 
-img {
-    margin: 43px 49px 46px 43px;
-}
-
-.smartphone-img{
-    margin: 10px 56.22px 30px 57px ;
-    padding-left: 55px;
-    padding-top: 80px;
-}
-
-.fritadeira-img{
-    padding-left: 43px;
-}
-
-.smart-43-img{
-    padding-left: 25px;
-}
-
-.cadeira-img{
-    padding-left: 40px;
-}
-
-p {
-    padding-left: 21px;
-}
-
-button.products-button{    
-    width: 335px;
+button.products-button{   
+    width: 236px;
     height: 48px;
     background-color: hsl(228, 89%, 63%);
     color: #fff;
@@ -104,11 +86,16 @@ button.products-button{
     align-items: center;
     border-radius: 8px;
     margin: 36px 18px 26px 21px;
-    padding-left: 100px;
+    justify-content: center;
     border-color:  #ffffff;
+} 
+
+figure{
+    width: 281.22px;
+    height: 207px;
 }
 
-
-
-
-
+img {
+    width: 80%;
+    padding-left: 35px;
+}

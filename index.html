@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat+Alternates:ital,wght@0,500;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -37,62 +38,80 @@
 
         <div class="container">
             <main class="products-wrapper">
+                <ul>
+                    <li>
+                        <figure>
+                        <img class="smart-tv-img" src="./pictures/img_03.png" alt="Smart TV 50 UHD 4K Kenzie 50AU7700">
+                        </figure>
+                        <p class="products-wrapper-smart">Smart TV 50" UHD 4K Kenzie 50AU7700, Processador Crystal 4K, Tela...</p>
+                        <p class="products-wrapper">R$ 2.000,00</p>
+                        <button class="products-button">Adicionar ao carrinho</button>
+                    </li>
                 
-                <div class="products">
-                    <img class="smart-tv-img" src="./pictures/img_03.png" alt="Smart TV 50 UHD 4K Kenzie 50AU7700">
-                    <p class="products-wrapper-smart">Smart TV 50" UHD 4K Kenzie 50AU7700, Processador Crystal 4K, Tela...</p>
-                    <p class="products-wrapper">R$ 2.000,00</p>
-                    <button class="products-button">Adicionar ao carrinho</button>
-                </div>
+                    <li>
+                        <figure>
+                        <img class="notebook-img" src="./pictures/img_04.png" alt="Notebook Kenzie - i3501-M10P 15.6” HD 11ª Geração Intel Pentium Gold 4GB 128...">
+                        </figure>
+                        <p class="products-wrapper">Notebook Kenzie - i3501-M10P 15.6” HD 11ª Geração Intel Pentium Gold 4GB 128...</p>
+                        <p class="products-wrapper">R$ 4.600,00</p>
+                        <button class="products-button">Adicionar ao carrinho</button>
+                    </li>
+               
+                    <li>
+                      <figure>
+                      <img class="ar-condionado-img" src="./pictures/img_06.png" alt="Ar Condicionado Split Kenzie 12.000 BTUs Springer Midea Frio - 220 Volts">
+                      </figure>
+                      <p class="products-wrapper">Ar Condicionado Split Kenzie 12.000 BTUs Springer Midea Frio - 220 Volts</p>
+                      <p class="products-wrapper">R$ 2.000,00</p>
+                      <button class="products-button">Adicionar ao carrinho</button>
+                    </li>
+               
 
-                <div class="products">
-                    <img class="notebook-img" src="./pictures/img_04.png" alt="Notebook Kenzie - i3501-M10P 15.6” HD 11ª Geração Intel Pentium Gold 4GB 128...">
-                    <p class="products-wrapper">Notebook Kenzie - i3501-M10P 15.6” HD 11ª Geração Intel Pentium Gold 4GB 128...</p>
-                    <p class="products-wrapper">R$ 4.600,00</p>
-                    <button class="products-button">Adicionar ao carrinho</button>
-                </div>
+                    <li>
+                      <figure>
+                      <img class="geladeira-img" src="./pictures/img_05.png" alt="Geladeira Kenzie BRM44HK Frost Free Duplex com Compartimento Extrafrio e">
+                      </figure>
+                      <p class="products-wrapper">Geladeira Kenzie BRM44HK Frost Free Duplex com Compartimento Extrafrio e</p>
+                      <p class="products-wrapper">R$ 2.568,40</p>
+                      <button class="products-button">Adicionar ao carrinho</button>
+                    </li> 
 
-                <div class="products">
-                    <img class="ar-condionado-img" src="./pictures/img_06.png" alt="Ar Condicionado Split Kenzie 12.000 BTUs Springer Midea Frio - 220 Volts">
-                    <p class="products-wrapper">Ar Condicionado Split Kenzie 12.000 BTUs Springer Midea Frio - 220 Volts</p>
-                    <p class="products-wrapper">R$ 2.000,00</p>
-                    <button class="products-button">Adicionar ao carrinho</button>
-                </div>
+                    <li>
+                      <figure>
+                      <img class="smartphone-img" src="./pictures/img_08.png" alt="Smartphone Kenzie Brasil A03 Core Preto 32GB, Câmera Traseira 8 MP, Tela...">
+                      </figure>
+                      <p class="products-wrapper">Smartphone Kenzie Brasil A03 Core Preto 32GB, Câmera Traseira 8 MP, Tela...</p>
+                      <p class="products-wrapper">R$ 2.000,00</p>
+                      <button class="products-button">Adicionar ao carrinho</button>
+                    </li>
 
-                <div class="products">
-                    <img class="geladeira-img" src="./pictures/img_05.png" alt="Geladeira Kenzie BRM44HK Frost Free Duplex com Compartimento Extrafrio e">
-                    <p class="products-wrapper">Geladeira Kenzie BRM44HK Frost Free Duplex com Compartimento Extrafrio e</p>
-                    <p class="products-wrapper">R$ 2.568,40</p>
-                    <button class="products-button">Adicionar ao carrinho</button>
-                </div>
+                    <li>
+                      <figure>
+                      <img class="fritadeira-img" src="./pictures/img_01.png" alt="Fritadeira Elétrica sem Óleo/Air Fryer - Family-IV AF-30I Preta 3,5L">
+                      </figure>
+                      <p class="products-wrapper">Fritadeira Elétrica sem Óleo/Air Fryer - Family-IV AF-30I Preta 3,5L</p>
+                      <p class="products-wrapper">R$ 400,00</p>
+                      <button class="products-button">Adicionar ao carrinho</button>
+                    </li>
 
-                <div class="products">
-                    <img class="smartphone-img" src="./pictures/img_08.png" alt="Smartphone Kenzie Brasil A03 Core Preto 32GB, Câmera Traseira 8 MP, Tela...">
-                    <p class="products-wrapper">Smartphone Kenzie Brasil A03 Core Preto 32GB, Câmera Traseira 8 MP, Tela...</p>
-                    <p class="products-wrapper">R$ 2.000,00</p>
-                    <button class="products-button">Adicionar ao carrinho</button>
-                </div>
+                    <li>
+                      <figure>
+                      <img class="smart-43-img" src="./pictures/img_07.png" alt="Smart TV LED 43” Full HD AOC Roku 43S5195/78 com Wi-fi, Controle...">
+                      </figure>
+                      <p class="products-wrapper">Smart TV LED 43” Full HD AOC Roku 43S5195/78 com Wi-fi, Controle...</p>
+                      <p class="products-wrapper">R$ 1.870,00</p>
+                      <button class="products-button">Adicionar ao carrinho</button>
+                    </li>
 
-                <div class="products">
-                    <img class="fritadeira-img" src="./pictures/img_01.png" alt="Fritadeira Elétrica sem Óleo/Air Fryer - Family-IV AF-30I Preta 3,5L">
-                    <p class="products-wrapper">Fritadeira Elétrica sem Óleo/Air Fryer - Family-IV AF-30I Preta 3,5L</p>
-                    <p class="products-wrapper">R$ 400,00</p>
-                    <button class="products-button">Adicionar ao carrinho</button>
-                </div>
-
-                <div class="products">
-                    <img class="smart-43-img" src="./pictures/img_07.png" alt="Smart TV LED 43” Full HD AOC Roku 43S5195/78 com Wi-fi, Controle...">
-                    <p class="products-wrapper">Smart TV LED 43” Full HD AOC Roku 43S5195/78 com Wi-fi, Controle...</p>
-                    <p class="products-wrapper">R$ 1.870,00</p>
-                    <button class="products-button">Adicionar ao carrinho</button>
-                </div>
-
-                <div class="products">
-                    <img class="cadeira-img" src="./pictures/img_02.png" alt="Cadeira Gamer Giratória Red System com Apoio Cabeça Frisokar Preta">
-                    <p class="products-wrapper">Cadeira Gamer Giratória Red System com Apoio Cabeça Frisokar Preta</p>
-                    <p class="products-wrapper">R$ 1.240,00</p>
-                    <button class="products-button">Adicionar ao carrinho</button>
-                </div>
+                    <li>
+                      <figure>
+                      <img class="cadeira-img" src="./pictures/img_02.png" alt="Cadeira Gamer Giratória Red System com Apoio Cabeça Frisokar Preta">
+                      </figure>
+                      <p class="products-wrapper">Cadeira Gamer Giratória Red System com Apoio Cabeça Frisokar Preta</p>
+                      <p class="products-wrapper">R$ 1.240,00</p>
+                      <button class="products-button">Adicionar ao carrinho</button>
+                    </li>
+                </ul>
 
             </main>
         </div>
